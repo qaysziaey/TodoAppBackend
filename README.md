@@ -25,6 +25,22 @@ composer require symfony/orm-pack
 composer require --dev symfony/maker-bundle
 ``` 
 
+## Database
+
+```bash
+# First put DATABASE_URL in .env.local
+
+bin/console doctrine:database:create
+
+# Than create Entity's
+
+bin/console doctrine:schema:create
+
+# After modifying Entity run
+
+bin/console doctrine:schema:update --force
+```
+
 ---
 
 # .ENV.LOCAL
