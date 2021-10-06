@@ -24,8 +24,15 @@ composer require doctrine/annotations
 composer require symfony/orm-pack
 composer require --dev symfony/maker-bundle
 ``` 
+- https://symfony.com/doc/current/components/serializer.html
+
+```bash
+composer require symfony/serializer
+```
 
 ## Database
+
+- https://symfony.com/doc/current/doctrine.html
 
 ```bash
 # First put DATABASE_URL in .env.local
