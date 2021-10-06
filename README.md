@@ -7,6 +7,9 @@ symfony new my_project
 
 cd my_project
 
+composer require symfony/twig-bundle
+composer require symfony/asset
+
 git remote add origin git@github.com:qaysziaey/TodoAppBackend.git
 git branch -M main
 git push -u origin main
@@ -28,6 +31,7 @@ composer require --dev symfony/maker-bundle
 
 ```bash
 composer require symfony/serializer
+composer require symfony/property-access
 ```
 
 ## Database
