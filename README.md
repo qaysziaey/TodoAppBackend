@@ -24,3 +24,11 @@ composer require doctrine/annotations
 composer require symfony/orm-pack
 composer require --dev symfony/maker-bundle
 ``` 
+
+---
+
+# .ENV.LOCAL
+
+```.env
+DATABASE_URL="sqlite:///%kernel.project_dir%/var/app.db"
+```
